@@ -2,7 +2,7 @@
 
 - we need to copy file which needs to be translated from vanilla_en to vanilla
 - we translate it as is in utf-8 format in out favorite editor
-- we convert result from previous step via decoder.rb
+- decoder will convert it according to associations.txt
 - decoder will iconv (convert it to CP437)
 - decoder will move it to russian translation output folder (see Note)
 
@@ -15,6 +15,6 @@
 
 ruby decoder.rb
 
-## associations.txt format
+# associations.txt format
 
 RUSSIAN_LETTER|PNG_COORDINATES
