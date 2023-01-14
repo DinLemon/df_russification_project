@@ -8,7 +8,8 @@
 
 ## Note
 
-vanilla_en - english sources vanilla - russian translation output
+- vanilla_en - english sources
+- vanilla - russian translation output
 
 # Decoder usage
 
