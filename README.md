@@ -18,4 +18,4 @@ ruby decoder.rb
 
 # associations.txt format
 
-RUSSIAN_LETTER|PNG_COORDINATES
+PNG_COORDINATES|RUSSIAN_LETTER
