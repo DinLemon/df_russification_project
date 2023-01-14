@@ -1,10 +1,11 @@
 matches = {}
 File.foreach('associations.txt') do |a|
   split = a.split('|')
-  matches[split[0]] = split[1].strip!
+  key = split[1].strip!
+  matches[key] = split[0]
 end
 
-# puts matches.inspect
+puts matches.inspect
 
 File.foreach("credits.txt") do |line| 
   word_arr = []
