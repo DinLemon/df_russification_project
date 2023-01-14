@@ -5,9 +5,9 @@ File.foreach('associations.txt') do |a|
   matches[key] = split[0]
 end
 
-puts matches.inspect
+# puts matches.inspect
 
-File.foreach("credits.txt") do |line| 
+File.foreach("credits.new.txt") do |line| 
   word_arr = []
   line.split('').each do |char|
     if char != ' '
@@ -22,3 +22,6 @@ File.foreach("credits.txt") do |line|
   end
   puts word_arr.join('')
 end
+
+# TODO: iconv 
+# TOD: move to vanilla folder
