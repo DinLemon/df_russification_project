@@ -5,6 +5,7 @@
 - decoder will convert it according to associations.txt
 - decoder will iconv (convert it to CP437)
 - decoder will move it to russian translation output folder (see Note)
+- test translation by copying vanilla folder to your local game path
 
 ## Note
 
