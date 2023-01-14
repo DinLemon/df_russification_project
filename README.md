@@ -14,7 +14,7 @@
 
 # Decoder usage
 
-ruby decoder.rb
+ruby decoder.rb /path/to/translated/file.txt
 
 # associations.txt format
 
